@@ -50,6 +50,9 @@ Ready to get started with Sevalla? Here are the next steps:
 2. Explore our products and [pricing plans](https://sevalla.com/pricing).
 3. Deploy an app, provision a database, or deploy a static site to the edge. 😎
 
+## Templates and examples
+Want to see how certain frameworks and languages can be deployed on our platform? Check out our [sevalla-templates](https://github.com/sevalla-templates) organization, where we share repositories and examples to help you get started.
+
 ## Stay connected
 
 Follow us on social media to stay up-to-date with the latest Sevalla news, updates, and tips:
