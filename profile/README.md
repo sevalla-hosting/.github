@@ -57,4 +57,4 @@ Want to see how certain frameworks and languages can be deployed on our platform
 
 Follow us on social media to stay up-to-date with the latest Sevalla news, updates, and tips:
 - [x.com](https://x.com/sevalla_hosting)
-- [Discord](https://discord.gg/SD5EvfQd)
+- [Discord](https://discord.gg/gfSRfCvz)
