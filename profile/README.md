@@ -1,60 +1,83 @@
-![github-cover](https://github.com/user-attachments/assets/8e42a4b0-5ad7-40ed-ab01-60c758d84921)
+![github-cover](https://github.com/user-attachments/assets/02ab5e4e-cdc3-4567-bbcb-5418a0088cf1)
 
-# About Sevalla
+<div align="center">
 
-Sevalla is a Platform as a Service (PaaS) that provides a scalable and reliable infrastructure for building and deploying web applications. Our mission is to make you forget about the underlying infrastructure.
+[Get Started](https://sevalla.com/signup) · [Docs](https://docs.sevalla.com) · [API Reference](https://api-docs.sevalla.com) · [Status](https://status.sevalla.com)
 
-## Our products
+</div>
 
-We offer three main products to help you build and deploy your web applications:
+---
 
-### Application hosting
+## What is Sevalla?
 
-> Harness the power and stability of  Google Kubernetes Engine leaving all its `yaml`s behind,
-and enjoy the added speed and protection of our  Cloudflare integration.
+Sevalla is a PaaS built on **Kubernetes** and **Cloudflare's edge network**. You push code, we handle builds, scaling, networking, TLS, CDN, and monitoring.
 
-- Deploy your applications from any source, whether public or private Git repositories or Docker images.
-- We support multiple runtimes and frameworks through our Buildpack / Nixpack-powered build environment and Dockerfile and Docker image support.
-- Enhance your app's performance by choosing from GCP's 25 data centers worldwide.
+No YAML. No Terraform. No cluster management. Just `git push` and deploy.
 
-### Database hosting
+## Products
 
-> No-fluff, reliable, scalable, and secure managed database hosting for developers
-who want to focus on their project, not their infrastructure.
+### ⚡ Application Hosting
 
-We provide a variety of database types to suit your needs:
+Deploy from GitHub, GitLab, Bitbucket, or any Docker registry. If it runs in a container, it runs on Sevalla.
 
-- PostgreSQL
-- MariaDB
-- MySQL
-- Redis
-- Valkey
+- Cloudflare CDN and edge caching
+- Custom domains with automatic TLS
+- Environment variables and secrets management
+- Real-time logs, web terminal, and analytics
+- Preview environments on every pull request
+- Deployment pipelines and one-click rollbacks
+- 25 data center regions worldwide
 
-Provision the database of your choice in any of GCP's 25 data centers around the world, closest to your users.
-Experience reduced latency and improved speed.
+### 🗄️ Database Hosting
 
-### Static site hosting
+Managed databases with automated backups, real-time monitoring, and built-in tooling.
 
-> Lightning-fast websites deployed directly to  Cloudflare's edge network.
-Host your personal blog, portfolio, or business website for **free**.
+| Engine | |
+|---|---|
+| PostgreSQL | Production-ready relational database |
+| MySQL | Widely adopted, battle-tested |
+| MariaDB | MySQL-compatible, community-driven |
+| Redis | In-memory data store and cache |
+| Valkey | Open-source Redis alternative |
 
-- Deploy your sites either from GitHub, GitLab, or BitBucket.
-- Collaborate with your team, or share your work with clients as you build it with Sevalla's preview feature.
+Every database includes **Database Studio** for in-browser queries, import/export tooling, and automated backup scheduling.
 
-Get started on our static site hosting for free!
+### 🌐 Static Site Hosting
 
-## Getting started
+Deploy to **Cloudflare's edge network**. Blogs, portfolios, docs sites, landing pages, all deployed globally and fast.
 
-Ready to get started with Sevalla? Here are the next steps:
-1. Sign up for a free account on [sevalla.com](https://sevalla.com/signup).
-2. Explore our products and [pricing plans](https://sevalla.com/pricing).
-3. Deploy an app, provision a database, or deploy a static site to the edge. 😎
+### 📦 Object Storage
 
-## Templates and examples
-Want to see how certain frameworks and languages can be deployed on our platform? Check out our [sevalla-templates](https://github.com/sevalla-templates) organization, where we share repositories and examples to help you get started.
+S3-compatible bucket storage for static assets, media, and files. Works with any S3 client or SDK.
 
-## Stay connected
+## Developer Experience
 
-Follow us on social media to stay up-to-date with the latest Sevalla news, updates, and tips:
-- [x.com](https://x.com/sevalla_hosting)
-- [Discord](https://discord.gg/gfSRfCvz)
+- **Git-native deployments**: push to a branch, trigger a build
+- **Full API access**: automate deploys, rollbacks, scaling, and provisioning ([API docs](https://api-docs.sevalla.com))
+- **Preview environments**: every PR gets its own URL
+- **Deployment pipelines**: promote builds across environments
+- **Webhooks**: plug into your existing CI/CD tooling
+
+## Security & Compliance
+
+- **SOC 2 Type II** certified
+- **SAML SSO** with Google Workspace, Microsoft Entra, Okta, OneLogin, Ping Identity
+- Team-based access control and project organization
+- Uptime SLAs with real-time status monitoring
+
+## Quick Start
+
+1. [Sign up](https://sevalla.com/signup) for an account
+2. Connect your Git provider
+3. Select a repo and deploy
+
+## Links
+
+| | |
+|---|---|
+| 🔗 [sevalla.com](https://sevalla.com) | Main site |
+| 📖 [docs.sevalla.com](https://docs.sevalla.com) | Documentation |
+| 🛠️ [api-docs.sevalla.com](https://api-docs.sevalla.com) | API reference |
+| 💬 [Discord](https://discord.gg/gfSRfCvz) | Community |
+| 🐦 [X / Twitter](https://x.com/sevalla_hosting) | Updates |
+| 💰 [Pricing](https://sevalla.com/pricing) | Plans & pricing |
