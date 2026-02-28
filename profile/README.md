@@ -6,8 +6,6 @@
 
 </div>
 
----
-
 ## What is Sevalla?
 
 Sevalla is a PaaS built on **Kubernetes** and **Cloudflare's edge network**. You push code, we handle builds, scaling, networking, TLS, CDN, and monitoring.
