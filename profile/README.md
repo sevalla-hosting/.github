@@ -76,6 +76,5 @@ S3-compatible bucket storage for static assets, media, and files. Works with any
 | 🔗 [sevalla.com](https://sevalla.com) | Main site |
 | 📖 [docs.sevalla.com](https://docs.sevalla.com) | Documentation |
 | 🛠️ [api-docs.sevalla.com](https://api-docs.sevalla.com) | API reference |
-| 💬 [Discord](https://discord.gg/gfSRfCvz) | Community |
 | 🐦 [X / Twitter](https://x.com/sevalla_hosting) | Updates |
 | 💰 [Pricing](https://sevalla.com/pricing) | Plans & pricing |
