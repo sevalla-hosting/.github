@@ -1,5 +1,5 @@
 > [!IMPORTANT]
-> **Sevalla has moved to [github.com/sevalla](https://github.com/sevalla).** Our official repositories, including the [`sevalla-deploy`](https://github.com/sevalla/sevalla-deploy) GitHub Action, now live there. Moved repositories redirect automatically, so existing links and workflows keep working.
+> **Sevalla has moved to [github.com/sevalla](https://github.com/sevalla).** Our official repositories now live there. Moved repositories redirect automatically, so existing links and workflows keep working.
 
 ![github-cover](https://github.com/user-attachments/assets/02ab5e4e-cdc3-4567-bbcb-5418a0088cf1)
 
